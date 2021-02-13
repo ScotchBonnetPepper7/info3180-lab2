@@ -1,0 +1,47 @@
+{% extends 'base.html' %}
+
+{% block main %}
+
+<div class = "girl-pic">
+    <img src ="{{ url_for('static', filename='Girl.jpg')}}">
+</div>
+
+<div class = "Bio"> 
+    <div class= 'headings'> 
+        <p>Tatanya Lynch</p>
+        <p>@Lynchyboo</p>
+        <p>St.Catherine, Jamaica</p>
+        <p>Joined {{date}}</p>
+    </div>
+</div>
+
+<div class="paragraph">
+    <p>
+        I am a smart and talented young woman who loves 
+        <br> website design and development.
+        Contact me if you 
+        <br>would like to work together on a new project.
+    </p>
+</div>
+
+<div class="table"> 
+<table>
+    <tr>
+       <th>7</th>
+       <th>100</th> 
+       <th>250</th>
+    </tr>
+    <tr>
+        <td>Posts</td>
+        <td>Following</td>
+        <td>Followers</td>
+    </tr>
+</table>
+</div>
+
+<div class="btn-box">
+    <button id='btn'>Follow</button>
+</div>
+
+
+{% endblock %}

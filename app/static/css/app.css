@@ -1,3 +1,75 @@
 body {
     padding-top: 5rem;
 }
+
+.Bio {
+    display: flex;
+    flex-direction: horizontal;
+    background-color: green;
+    justify-content: center;
+    padding: 10px;
+}
+ 
+.girl-pic {
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: center;
+    background-color: green;
+    padding: 10px;
+}
+
+.Bio .headings {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 25px;   
+}
+
+.headings :nth-child(1){
+    font-size: 40px;
+    font-weight: bold;
+}
+
+img{
+    border-radius: 90%;
+    position: center;
+    width: 150px;
+    height: 180px;
+}
+
+#btn {
+    float: center;
+    color: white;
+    background-color: rgb(0, 204, 255);
+    border-style: solid;
+    border-color:rgb(0, 204, 255);
+    border-radius: 5px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.btn-box{
+    display:flex;
+    flex-direction: horizontal;
+    justify-content: center;
+    padding: 10px;
+}
+
+.paragraph{
+    display:flex;
+    flex-direction: horizontal;
+    justify-content: center;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.table {
+    display: flex;
+    flex-direction: horizontal;
+    justify-content: center;
+    border-color: white;
+    border-style: none;
+}
